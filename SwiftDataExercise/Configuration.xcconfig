@@ -1,0 +1,11 @@
+//
+//  Configuration.xcconfig
+//  SwiftDataExercise
+//
+//  Created by Dusan Kovacevic on 8/8/23.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+BASE_URL = private-anon-f88768647d-practical3.apiary-mock.com;

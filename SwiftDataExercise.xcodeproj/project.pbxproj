@@ -11,9 +11,17 @@
 		78509A742A8250EC0056BB0E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78509A732A8250EC0056BB0E /* ContentView.swift */; };
 		78509A762A8250EE0056BB0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78509A752A8250EE0056BB0E /* Assets.xcassets */; };
 		78509A7A2A8250EE0056BB0E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78509A792A8250EE0056BB0E /* Preview Assets.xcassets */; };
-		78509A842A8250EE0056BB0E /* SwiftDataExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78509A832A8250EE0056BB0E /* SwiftDataExerciseTests.swift */; };
-		78509A8E2A8250EE0056BB0E /* SwiftDataExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78509A8D2A8250EE0056BB0E /* SwiftDataExerciseUITests.swift */; };
-		78509A902A8250EE0056BB0E /* SwiftDataExerciseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78509A8F2A8250EE0056BB0E /* SwiftDataExerciseUITestsLaunchTests.swift */; };
+		78509A9D2A826D600056BB0E /* PropertyListRemoteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78509A9C2A826D600056BB0E /* PropertyListRemoteRepository.swift */; };
+		78509AA12A826F3E0056BB0E /* PropertyDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78509AA02A826F3E0056BB0E /* PropertyDTO.swift */; };
+		78509AA32A82827E0056BB0E /* CityDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78509AA22A82827E0056BB0E /* CityDTO.swift */; };
+		78509AA52A8282870056BB0E /* PropertyListDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78509AA42A8282870056BB0E /* PropertyListDTO.swift */; };
+		78509AAE2A84C4590056BB0E /* PropertyListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78509AAD2A84C4590056BB0E /* PropertyListViewModel.swift */; };
+		787144012A8B6CAC00D1DFEC /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787144002A8B6CAC00D1DFEC /* TestView.swift */; };
+		788666712A8B7BA400ED67D1 /* SWLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788666702A8B7BA400ED67D1 /* SWLogger.swift */; };
+		78987B522A84C6A0005752EF /* PropertyListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78987B512A84C6A0005752EF /* PropertyListService.swift */; };
+		78987B542A84C7A1005752EF /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78987B532A84C7A1005752EF /* Property.swift */; };
+		78987B582A84C7B4005752EF /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78987B572A84C7B4005752EF /* City.swift */; };
+		78987B5B2A84CE38005752EF /* PropertyListLocalRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78987B5A2A84CE38005752EF /* PropertyListLocalRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,13 +46,22 @@
 		78509A712A8250EC0056BB0E /* SwiftDataExerciseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataExerciseApp.swift; sourceTree = "<group>"; };
 		78509A732A8250EC0056BB0E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		78509A752A8250EE0056BB0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		78509A772A8250EE0056BB0E /* SwiftDataExercise.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftDataExercise.entitlements; sourceTree = "<group>"; };
 		78509A792A8250EE0056BB0E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		78509A7F2A8250EE0056BB0E /* SwiftDataExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDataExerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		78509A832A8250EE0056BB0E /* SwiftDataExerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataExerciseTests.swift; sourceTree = "<group>"; };
 		78509A892A8250EE0056BB0E /* SwiftDataExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDataExerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		78509A8D2A8250EE0056BB0E /* SwiftDataExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataExerciseUITests.swift; sourceTree = "<group>"; };
-		78509A8F2A8250EE0056BB0E /* SwiftDataExerciseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataExerciseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		78509A9C2A826D600056BB0E /* PropertyListRemoteRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyListRemoteRepository.swift; sourceTree = "<group>"; };
+		78509AA02A826F3E0056BB0E /* PropertyDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyDTO.swift; sourceTree = "<group>"; };
+		78509AA22A82827E0056BB0E /* CityDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityDTO.swift; sourceTree = "<group>"; };
+		78509AA42A8282870056BB0E /* PropertyListDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyListDTO.swift; sourceTree = "<group>"; };
+		78509AA92A828D7A0056BB0E /* Configuration.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Configuration.xcconfig; sourceTree = "<group>"; };
+		78509AAA2A83B8920056BB0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		78509AAD2A84C4590056BB0E /* PropertyListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyListViewModel.swift; sourceTree = "<group>"; };
+		787144002A8B6CAC00D1DFEC /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		788666702A8B7BA400ED67D1 /* SWLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWLogger.swift; sourceTree = "<group>"; };
+		78987B512A84C6A0005752EF /* PropertyListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyListService.swift; sourceTree = "<group>"; };
+		78987B532A84C7A1005752EF /* Property.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
+		78987B572A84C7B4005752EF /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		78987B5A2A84CE38005752EF /* PropertyListLocalRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyListLocalRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +93,6 @@
 			isa = PBXGroup;
 			children = (
 				78509A702A8250EC0056BB0E /* SwiftDataExercise */,
-				78509A822A8250EE0056BB0E /* SwiftDataExerciseTests */,
-				78509A8C2A8250EE0056BB0E /* SwiftDataExerciseUITests */,
 				78509A6F2A8250EC0056BB0E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,10 +110,19 @@
 		78509A702A8250EC0056BB0E /* SwiftDataExercise */ = {
 			isa = PBXGroup;
 			children = (
+				7886666F2A8B7B9200ED67D1 /* Utilities */,
+				78509AA92A828D7A0056BB0E /* Configuration.xcconfig */,
+				78509AAA2A83B8920056BB0E /* Info.plist */,
+				78987B502A84C685005752EF /* Services */,
+				78509AAC2A83DCB20056BB0E /* Models */,
+				78509A9F2A826F320056BB0E /* DTOModels */,
+				78509A9E2A826D640056BB0E /* PropertyListRemoteClient */,
+				78987B592A84CDD6005752EF /* PropertyListLocalClient */,
 				78509A712A8250EC0056BB0E /* SwiftDataExerciseApp.swift */,
 				78509A732A8250EC0056BB0E /* ContentView.swift */,
+				787144002A8B6CAC00D1DFEC /* TestView.swift */,
+				78509AAD2A84C4590056BB0E /* PropertyListViewModel.swift */,
 				78509A752A8250EE0056BB0E /* Assets.xcassets */,
-				78509A772A8250EE0056BB0E /* SwiftDataExercise.entitlements */,
 				78509A782A8250EE0056BB0E /* Preview Content */,
 			);
 			path = SwiftDataExercise;
@@ -112,21 +136,55 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		78509A822A8250EE0056BB0E /* SwiftDataExerciseTests */ = {
+		78509A9E2A826D640056BB0E /* PropertyListRemoteClient */ = {
 			isa = PBXGroup;
 			children = (
-				78509A832A8250EE0056BB0E /* SwiftDataExerciseTests.swift */,
+				78509A9C2A826D600056BB0E /* PropertyListRemoteRepository.swift */,
 			);
-			path = SwiftDataExerciseTests;
+			path = PropertyListRemoteClient;
 			sourceTree = "<group>";
 		};
-		78509A8C2A8250EE0056BB0E /* SwiftDataExerciseUITests */ = {
+		78509A9F2A826F320056BB0E /* DTOModels */ = {
 			isa = PBXGroup;
 			children = (
-				78509A8D2A8250EE0056BB0E /* SwiftDataExerciseUITests.swift */,
-				78509A8F2A8250EE0056BB0E /* SwiftDataExerciseUITestsLaunchTests.swift */,
+				78509AA02A826F3E0056BB0E /* PropertyDTO.swift */,
+				78509AA22A82827E0056BB0E /* CityDTO.swift */,
+				78509AA42A8282870056BB0E /* PropertyListDTO.swift */,
 			);
-			path = SwiftDataExerciseUITests;
+			path = DTOModels;
+			sourceTree = "<group>";
+		};
+		78509AAC2A83DCB20056BB0E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				78987B532A84C7A1005752EF /* Property.swift */,
+				78987B572A84C7B4005752EF /* City.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7886666F2A8B7B9200ED67D1 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				788666702A8B7BA400ED67D1 /* SWLogger.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		78987B502A84C685005752EF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				78987B512A84C6A0005752EF /* PropertyListService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		78987B592A84CDD6005752EF /* PropertyListLocalClient */ = {
+			isa = PBXGroup;
+			children = (
+				78987B5A2A84CE38005752EF /* PropertyListLocalRepository.swift */,
+			);
+			path = PropertyListLocalClient;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +317,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				787144012A8B6CAC00D1DFEC /* TestView.swift in Sources */,
+				78987B542A84C7A1005752EF /* Property.swift in Sources */,
 				78509A742A8250EC0056BB0E /* ContentView.swift in Sources */,
+				78509AA32A82827E0056BB0E /* CityDTO.swift in Sources */,
+				78509AA52A8282870056BB0E /* PropertyListDTO.swift in Sources */,
 				78509A722A8250EC0056BB0E /* SwiftDataExerciseApp.swift in Sources */,
+				78509AAE2A84C4590056BB0E /* PropertyListViewModel.swift in Sources */,
+				78509AA12A826F3E0056BB0E /* PropertyDTO.swift in Sources */,
+				78987B5B2A84CE38005752EF /* PropertyListLocalRepository.swift in Sources */,
+				78987B582A84C7B4005752EF /* City.swift in Sources */,
+				78987B522A84C6A0005752EF /* PropertyListService.swift in Sources */,
+				788666712A8B7BA400ED67D1 /* SWLogger.swift in Sources */,
+				78509A9D2A826D600056BB0E /* PropertyListRemoteRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +337,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78509A842A8250EE0056BB0E /* SwiftDataExerciseTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +344,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78509A902A8250EE0056BB0E /* SwiftDataExerciseUITestsLaunchTests.swift in Sources */,
-				78509A8E2A8250EE0056BB0E /* SwiftDataExerciseUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +365,7 @@
 /* Begin XCBuildConfiguration section */
 		78509A912A8250EE0056BB0E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78509AA92A828D7A0056BB0E /* Configuration.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -349,7 +416,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -360,6 +429,7 @@
 		};
 		78509A922A8250EE0056BB0E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78509AA92A828D7A0056BB0E /* Configuration.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -404,7 +474,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -413,10 +485,11 @@
 		};
 		78509A942A8250EE0056BB0E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78509AA92A828D7A0056BB0E /* Configuration.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = SwiftDataExercise/SwiftDataExercise.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftDataExercise/Preview Content\"";
@@ -424,6 +497,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftDataExercise/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -442,7 +516,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dusan.SwiftDataExercise;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -451,10 +526,11 @@
 		};
 		78509A952A8250EE0056BB0E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78509AA92A828D7A0056BB0E /* Configuration.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = SwiftDataExercise/SwiftDataExercise.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftDataExercise/Preview Content\"";
@@ -462,6 +538,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftDataExercise/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -480,7 +557,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dusan.SwiftDataExercise;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -489,6 +567,7 @@
 		};
 		78509A972A8250EE0056BB0E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78509AA92A828D7A0056BB0E /* Configuration.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,7 +581,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dusan.SwiftDataExerciseTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -512,6 +592,7 @@
 		};
 		78509A982A8250EE0056BB0E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78509AA92A828D7A0056BB0E /* Configuration.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -525,7 +606,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dusan.SwiftDataExerciseTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -535,6 +617,7 @@
 		};
 		78509A9A2A8250EE0056BB0E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78509AA92A828D7A0056BB0E /* Configuration.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -547,7 +630,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dusan.SwiftDataExerciseUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -557,6 +641,7 @@
 		};
 		78509A9B2A8250EE0056BB0E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78509AA92A828D7A0056BB0E /* Configuration.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -569,7 +654,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dusan.SwiftDataExerciseUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
